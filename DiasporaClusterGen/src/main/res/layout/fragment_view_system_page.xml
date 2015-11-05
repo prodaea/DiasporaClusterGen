@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ <ScrollView
+         xmlns:android="http://schemas.android.com/apk/res/android"
+         xmlns:tools="http://schemas.android.com/tools"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         >
+     <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             tools:context="net.etherealnation.diaspora.clustergen.app.view.system.SystemPageEditFragment">
+
+         <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="@string/header_stats"
+                 style="@style/TextAppearance.AppCompat.Widget.ActionMode.Title"
+                 android:paddingTop="10dp"
+                 android:paddingRight="10dp"
+                 android:paddingBottom="10dp"
+                 android:paddingLeft="20dp"
+                 android:background="?android:attr/listDivider"
+                 />
+
+         <TableLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:paddingTop="10dp"
+                 android:paddingRight="10dp"
+                 android:paddingBottom="10dp"
+                 android:paddingLeft="20dp"
+                 >
+
+             <TableRow>
+
+                 <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="@string/field_label_technology"
+                         android:gravity="right"
+                         android:paddingRight="5dp"
+                         />
+
+                 <TextView
+                         android:id="@+id/field_technology"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:maxLength="2"
+                         android:layout_weight="15"
+                         android:gravity="center"
+                         />
+
+             </TableRow>
+
+
+             <TableRow>
+
+                 <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="@string/field_label_environment"
+                         android:gravity="right"
+                         android:paddingRight="5dp"
+                         />
+
+                 <TextView
+                         android:id="@+id/field_environment"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:maxLength="2"
+                         android:layout_weight="15"
+                         android:gravity="center"
+                         />
+
+             </TableRow>
+
+
+             <TableRow>
+
+                 <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="@string/field_label_resources"
+                         android:gravity="right"
+                         android:paddingRight="5dp"
+                         />
+
+                 <TextView
+                         android:id="@+id/field_resources"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:maxLength="2"
+                         android:layout_weight="15"
+                         android:gravity="center"
+                         />
+
+             </TableRow>
+
+         </TableLayout>
+
+         <!-- TODO add system links view -->
+         <!--<TextView-->
+         <!--android:layout_width="match_parent"-->
+         <!--android:layout_height="wrap_content"-->
+         <!--android:text="@string/header_links"-->
+         <!--style="@style/TextAppearance.AppCompat.Widget.Base.ActionMode.Title"-->
+         <!--android:layout_gravity="center_vertical|left"-->
+         <!--android:paddingTop="10dp"-->
+         <!--android:paddingRight="10dp"-->
+         <!--android:paddingBottom="10dp"-->
+         <!--android:paddingLeft="20dp"-->
+         <!--android:background="?android:attr/listDivider"-->
+         <!--/>-->
+
+         <LinearLayout
+                 android:id="@+id/links_container"
+                 android:orientation="vertical"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 />
+
+         <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:paddingTop="10dp"
+                 android:paddingRight="10dp"
+                 android:paddingBottom="10dp"
+                 android:paddingLeft="20dp"
+                 android:background="?android:attr/listDivider"
+                 >
+
+             <TextView
+                     android:layout_width="0dp"
+                     android:layout_height="wrap_content"
+                     android:text="@string/header_aspects"
+                     style="@style/TextAppearance.AppCompat.Widget.ActionMode.Title"
+                     android:layout_gravity="center_vertical|left"
+                     android:layout_weight="1"
+                     />
+
+         </LinearLayout>
+
+         <LinearLayout
+                 android:id="@+id/aspects_container"
+                 android:orientation="vertical"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 />
+
+     </LinearLayout>
+
+ </ScrollView>

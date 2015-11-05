@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+        >
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?android:attr/listPreferredItemHeight"
+            android:gravity="center_vertical"
+            android:paddingLeft="32dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            >
+
+        <TextView
+                android:id="@+id/text_system_aspect"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:maxLines="2"
+                android:lineSpacingExtra="3dp"
+                android:ellipsize="end"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/test_text_system_aspect"
+                />
+
+        <ImageButton
+                android:id="@+id/button_edit_system_aspect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/content_description_edit_aspect"
+                android:src="@android:drawable/ic_menu_edit"
+                android:visibility="gone"
+                style="@style/AppTheme.ActionButton"
+                />
+
+        <ImageButton
+                android:id="@+id/button_delete_system_aspect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/content_description_delete_aspect"
+                android:src="@android:drawable/ic_menu_delete"
+                android:visibility="gone"
+                style="@style/AppTheme.ActionButton"
+                />
+
+    </LinearLayout>
+
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/listDivider"
+            />
+
+</LinearLayout>

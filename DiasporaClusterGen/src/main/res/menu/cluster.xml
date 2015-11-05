@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:tools="http://schemas.android.com/tools"
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      tools:context="net.etherealnation.diaspora.clustergen.app.view.system.ClusterListFragment"
+        >
+    <item android:id="@+id/menu_add_cluster"
+          android:title="@string/menu_add_cluster"
+          app:showAsAction="always"
+          android:icon="@android:drawable/ic_menu_add"
+            />
+</menu>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:tools="http://schemas.android.com/tools"
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      tools:context="net.etherealnation.diaspora.clustergen.app.view.system.SystemViewFragment"
+        >
+    <item android:id="@+id/menu_edit_system"
+               android:title="@string/menu_edit_system"
+               app:showAsAction="always"
+               android:icon="@android:drawable/ic_menu_edit"
+               />
+
+    <item android:id="@+id/menu_share_system"
+          android:title="@string/menu_share_system"
+          app:showAsAction="never"
+            />
+
+    <item android:id="@+id/menu_share_cluster"
+          android:title="@string/menu_share_cluster"
+          app:showAsAction="never"
+            />
+</menu>

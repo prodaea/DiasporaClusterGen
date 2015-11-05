@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:tools="http://schemas.android.com/tools"
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      tools:context="net.etherealnation.diaspora.clustergen.app.view.system.SystemEditFragment"
+        >
+
+    <item android:id="@+id/menu_add_system"
+          android:title="@string/menu_add_system"
+          app:showAsAction="always"
+          android:icon="@android:drawable/ic_menu_add"
+            />
+
+    <item android:id="@+id/menu_delete_system"
+          android:title="@string/menu_delete_system"
+          app:showAsAction="always"
+          android:icon="@android:drawable/ic_menu_delete"
+            />
+
+    <item android:id="@+id/menu_save_cluster"
+          android:title="@string/menu_save_cluster"
+          app:showAsAction="ifRoom"
+          android:icon="@android:drawable/ic_menu_save"
+            />
+
+    <item android:id="@+id/menu_link_cluster"
+          android:title="@string/menu_link_cluster"
+          app:showAsAction="ifRoom"
+            />
+
+    <item android:id="@+id/menu_share_system"
+          android:title="@string/menu_share_system"
+          app:showAsAction="never"
+            />
+
+    <item android:id="@+id/menu_share_cluster"
+          android:title="@string/menu_share_cluster"
+          app:showAsAction="never"
+            />
+
+
+</menu>
