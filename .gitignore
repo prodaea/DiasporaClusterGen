@@ -63,3 +63,7 @@ atlassian-ide-plugin.xml
 
 # ndk
 obj/
+
+# keystore & password stuff
+*.keystore
+etherealnation.gradle

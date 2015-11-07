@@ -14,6 +14,8 @@ apply plugin: 'android-sdk-manager'
 apply plugin: 'com.android.application'
 apply plugin: 'android-apt'
 
+apply from: '../etherealnation.gradle'
+
 allprojects {
     repositories {
         mavenCentral()
@@ -43,6 +45,7 @@ android {
 
         release {
             minifyEnabled true
+            signingConfig signingConfigs.release
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
